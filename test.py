@@ -1,9 +1,12 @@
 # 1. reverse a string without using built in methods of python
 
 str = 'Hello World'
+str2 = ''
 
 for i in range(len(str)):
-    print("1: ", str[len(str)-i-1])
+    str2 = str2 + str[len(str)-i-1]
+
+print(str2)
 
 print("\n")
 
